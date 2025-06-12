@@ -1,0 +1,63 @@
+:root {
+  /* FONTS */
+  --font-primary: 'Montserrat', sans-serif;
+  --font-heading: 'Playfair', serif;
+  --font-accent: 'Dancing Script', cursive;
+
+  /* COLORS */
+  --color-navy: #20374a;
+  --color-sand: #836e43;
+  --color-salmon: #f4907f;
+  --color-gray-soft: #4b5e6d;
+  --color-ivory: #f8f2e9;
+
+  /* semantic Role */
+  --color-primary: var(--color-navy);
+  --color-secondary: var(--color-sand);
+  --color-accent: var(--color-salmon);
+  --color-background: var(--color-ivory);
+  --color-light-text: var(--color-navy);
+  --color-dark-text: var(--color-gray-soft);
+
+
+  /* FONT SIZE */
+  --sm: 12px;
+  --md: 14px;
+  --lg: 16px;
+  --xl: 18px;
+  --xl-subtitle: 2.5rem;
+  --xl-title: 4.5rem;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section-spacing {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}

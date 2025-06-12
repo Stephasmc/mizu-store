@@ -1,0 +1,78 @@
+.hero-container {
+  padding: 60px 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  /* Background */
+  background-image: url('../../assets/img/hand_soap_hero.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+.hero-text{
+  text-align: left;
+}
+.hero-text h1 {
+  font-family: var(--font-heading);
+  font-size: var(--xl-title);
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.4rem;
+  color: var(--color-dark-text);
+  margin-bottom: 50px;
+}
+
+.hero-cta-button {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: var(--xl);
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-cta-button:hover {
+  background-color: var(--color-sand);
+  transform: translateY(-2px);
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+  
+  .hero-text h1 {
+    font-size: var(--xl-subtitle);
+  }
+}

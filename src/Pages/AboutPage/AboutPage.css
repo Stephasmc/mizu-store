@@ -1,0 +1,141 @@
+.about-page-container {
+  margin: 0 auto;
+  padding: 90px 120px 0px 120px;
+  background-color: var(--color-background); 
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* --- background elements --- */
+.about-deco-image {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  width: 300px;
+  max-width: 25%;
+}
+/* Left and right img position */
+.deco-left {
+  top: 0;
+  left: 0;
+}
+.deco-right {
+  top: 0;
+  right: 0;
+}
+
+/* --- Cabecera --- */
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+.title-background {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  color: var(--color-secondary);
+  font-family: var(--font-accent);
+  font-size: var(--xl-subtitle);
+  margin-bottom: 10px;
+}
+.title-background img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.about-header h1 {
+  font-family: var(--font-heading);
+  font-size: var(--xl-title);
+  color: var(--color-primary);
+  margin-top: -20px;
+}
+
+/* --- Principal Container text-img --- */
+.about-main-content {
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-text-content {
+  color: var(--color-dark-text);
+  font-size: var(--xl);
+  line-height: 1.8;
+}
+
+.about-text-content p {
+  margin-bottom: 20px;
+}
+
+.about-text-content strong {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.about-text-content img {
+  float: right;
+}
+
+.about-intro {
+  text-align: center;
+}
+.about-intro h3 {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-highlight {
+  font-style: italic;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+  font-size: var(--xl);
+}
+
+.about-signature {
+  font-size: var(--lg);
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+.about-illustration {
+  max-width: 100%;
+  width: 400px;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  .about-main-content {
+    grid-template-columns: 1fr;
+  }
+  .about-illustration-container {
+    display: grid;
+    margin-bottom: 40px;
+  }
+  .about-deco-image {
+    position: fixed;
+    top: 20px;
+    width: 100px;
+    z-index: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .about-page-container {
+    padding: 60px 20px;
+  }
+  .about-header h1 { font-size: 4rem; }
+  .title-background { font-size: 2rem; }
+}
