@@ -5,7 +5,7 @@
 ![Puedes dar un vistazo aquí]() 
 <!-- Sube una captura de pantalla de tu Home a GitHub y reemplaza la URL -->
 ![image](https://github.com/user-attachments/assets/bb7d91f9-c860-4991-a7f2-23970f1d645d)
-![image](https://github.com/user-attachments/assets/64ee9996-e10a-41a6-87f5-007790f14f91)
+![image](https://github.com/user-attachments/assets/12649875-e58b-42a4-918d-bf241fc548fc)
 ![image](https://github.com/user-attachments/assets/d62289df-e3a9-4eec-b410-d77c1c124c5c)
 
 
