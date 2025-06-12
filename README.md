@@ -67,6 +67,6 @@ Puedes ver la versión en vivo aquí: [https://transcendent-pavlova-40f956.netli
 
 ✍️ Autor
 
-    [Stepha Millan] - Tu GitHub | Tu LinkedIn
+    [Stepha Millan] - https://github.com/Stephasmc | https://www.linkedin.com/in/stephasmc/
 
 ¡Gracias por visitar el proyecto!
